@@ -1,0 +1,29 @@
+.info{
+    display: flex;
+    color: #484e48;
+    .container{
+        width: 50%;
+        background-color: #fff;
+        padding: 5rem;
+        h3{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 3rem;
+            margin-bottom: 5rem;
+        }
+        p{
+            padding: .5rem 0;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+    }
+    img{
+        width: 50%;
+    }
+}
+
+.active{
+    display: flex;
+    flex-direction: row-reverse;
+}

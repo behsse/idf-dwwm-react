@@ -1,0 +1,10 @@
+.navLink {
+    display: flex;
+    gap: 2rem;
+    text-transform: uppercase;
+    li {
+      a {
+        color: #484e48;
+      }
+    }
+}

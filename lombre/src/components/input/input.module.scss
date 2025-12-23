@@ -1,0 +1,11 @@
+.input{
+    background-color: #fff;
+    padding: 1.6rem;
+    width: 30%;
+    border: none;
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    &:focus{
+        outline: none;
+    }
+}
