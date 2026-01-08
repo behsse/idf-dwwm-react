@@ -1,9 +1,9 @@
+import BurgerMenu from "./navbar/burgerMenu/BurgerMenu";
 import { Logo } from "./navbar/Logo"
 import { Nav } from "./navbar/Nav"
 import Button from "./ui/Button"
 import { Search } from 'lucide-react';
 import { Globe } from 'lucide-react';
-import { Menu } from 'lucide-react';
 
 export const Navbar = () => {
 
@@ -12,10 +12,12 @@ export const Navbar = () => {
             <Logo/>
             <Nav/>
             <div className="flex items-center gap-4">
-                <Button link text="Devenir hôte" href="/"/>
+                <div className="hidden lg:block">
+                    <Button link text="Devenir hôte" href="/"/>
+                </div>
                 <Button icon={<Search/>}/>
                 <Button icon={<Globe/>}/>
-                <Button icon={<Menu/>}/>
+                <BurgerMenu/>
             </div>
         </nav>
     )

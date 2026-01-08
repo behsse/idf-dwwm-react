@@ -4,10 +4,11 @@ interface Props {
     link? : boolean,
     text? : string,
     icon? : ReactNode,
-    href? : string
+    href? : string,
+    onClick? : () => void
 }
 
-const Button = ({link, text, icon, href} : Props) => {
+const Button = ({link, text, icon, href, onClick} : Props) => {
     return(
         <>
             {
@@ -21,7 +22,7 @@ const Button = ({link, text, icon, href} : Props) => {
                         {icon}
                     </button>
                 :
-                <button className="p-3 rounded-full flex items-center justify-center bg-zinc-200 cursor-pointer">
+                <button className="p-3 rounded-full flex items-center justify-center bg-zinc-200 cursor-pointer" onClick={onClick}>
                     {icon}
                 </button>
             }
