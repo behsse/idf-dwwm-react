@@ -8,12 +8,14 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
     return (
-        <div>
+        <div className="flex flex-col h-screen">
             <Navbar />
-            <main>
+            <main className="flex-1 overflow-y-auto">
                 {children}
             </main>
-            <TabBar />
+            <div className="md:hidden">
+                <TabBar />
+            </div>
         </div>
     )
 }

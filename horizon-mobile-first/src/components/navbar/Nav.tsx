@@ -21,8 +21,8 @@ export const Nav = ({ children }: NavProps) => {
         }
     ]
     return (
-        <nav className="w-full">
-            <ul className="flex items-center justify-around">
+        <nav className="w-full md:w-auto">
+            <ul className="flex items-center justify-around md:gap-10">
                 {
                     links.map((link, index) => (
                         <Links key={index} text={link.text} link={link.link} />
