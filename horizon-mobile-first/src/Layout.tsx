@@ -7,6 +7,7 @@ interface LayoutProps {
 }
 
 const Layout = ({ children }: LayoutProps) => {
+
     return (
         <div className="flex flex-col h-screen">
             <Navbar />

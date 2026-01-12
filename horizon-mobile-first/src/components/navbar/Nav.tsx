@@ -1,4 +1,4 @@
-import { Links } from "./Links"
+import { LinkNav } from "./LinkNav"
 import type { ReactNode } from "react"
 
 interface NavProps {
@@ -13,7 +13,7 @@ export const Nav = ({ children }: NavProps) => {
         },
         {
             text: "Expériences",
-            link : "/"
+            link : "/about"
         },
         {
             text: "Services",
@@ -25,7 +25,7 @@ export const Nav = ({ children }: NavProps) => {
             <ul className="flex items-center justify-around md:gap-10">
                 {
                     links.map((link, index) => (
-                        <Links key={index} text={link.text} link={link.link} />
+                        <LinkNav key={index} text={link.text} link={link.link} />
                     ))
                 }
                 {children}
