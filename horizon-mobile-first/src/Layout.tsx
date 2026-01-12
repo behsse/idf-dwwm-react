@@ -1,18 +1,14 @@
 import Navbar from "./components/navbar/Navbar"
 import TabBar from "./components/navbar/TabBar"
-import type { ReactNode } from "react"
+import { Outlet } from "react-router"
 
-interface LayoutProps {
-    children: ReactNode
-}
-
-const Layout = ({ children }: LayoutProps) => {
+const Layout = () => {
 
     return (
         <div className="flex flex-col h-screen">
             <Navbar />
             <main className="flex-1 overflow-y-auto">
-                {children}
+                <Outlet />
             </main>
             <div className="md:hidden">
                 <TabBar />
