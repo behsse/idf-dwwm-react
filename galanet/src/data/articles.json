@@ -1,0 +1,162 @@
+[
+  {
+    "id": "chasseur-z95-headhunter",
+    "title": "Chasseur Z-95 Headhunter",
+    "price": 45000,
+    "category": "vaisseaux-engins",
+    "subcategory": "chasseurs-stellaires",
+    "published_at": "2026-01-08T10:30:00Z"
+  },
+  {
+    "id": "blaster-dl44-modifie",
+    "title": "Blaster DL-44 Modifié",
+    "price": 3200,
+    "category": "armurerie",
+    "subcategory": "blasters-poing",
+    "published_at": "2026-01-12T14:15:00Z"
+  },
+  {
+    "id": "unite-r5-defectueuse",
+    "title": "Unité R5 Défectueuse",
+    "price": 800,
+    "category": "ferraille-droides",
+    "subcategory": "droides-astromech",
+    "published_at": "2026-01-14T09:00:00Z"
+  },
+  {
+    "id": "holocron-sith-ancien",
+    "title": "Holocron Sith Ancien",
+    "price": 125000,
+    "category": "reliques-tresors",
+    "subcategory": "artefacts-jedi-sith",
+    "published_at": "2026-01-13T12:00:00Z"
+  },
+  {
+    "id": "bacta-de-contrebande-lot-de-10",
+    "title": "Bacta de Contrebande (Lot de 10)",
+    "price": 1500,
+    "category": "ravitaillement-medics",
+    "subcategory": "soins-urgence",
+    "published_at": "2026-01-11T16:45:00Z"
+  },
+  {
+    "id": "jetpack-z-6-occasion",
+    "title": "Jetpack Z-6 Occasion",
+    "price": 12000,
+    "category": "survie-exploration",
+    "subcategory": "mobilite-verticale",
+    "published_at": "2026-01-10T11:20:00Z"
+  },
+  {
+    "id": "cristal-kyber-fissure",
+    "title": "Cristal Kyber Fissuré",
+    "price": 55000,
+    "category": "armurerie",
+    "subcategory": "sabres-energie",
+    "published_at": "2026-01-13T08:30:00Z"
+  },
+  {
+    "id": "cape-de-camouflage-optique",
+    "title": "Cape de Camouflage Optique",
+    "price": 8900,
+    "category": "apparence",
+    "subcategory": "capes-ponchos",
+    "published_at": "2026-01-09T22:10:00Z"
+  },
+  {
+    "id": "kit-de-slicing-professionnel",
+    "title": "Kit de Slicing Professionnel",
+    "price": 4500,
+    "category": "cyber-cryptage",
+    "subcategory": "terminaux-piratage",
+    "published_at": "2026-01-13T10:05:00Z"
+  },
+  {
+    "id": "lait-bleu-de-tatooine-caisse",
+    "title": "Lait Bleu de Tatooine (Caisse)",
+    "price": 200,
+    "category": "ravitaillement-medics",
+    "subcategory": "boissons-importees",
+    "published_at": "2026-01-12T07:45:00Z"
+  },
+  {
+    "id": "plastron-de-shock-trooper",
+    "title": "Plastron de Shock Trooper",
+    "price": 5200,
+    "category": "apparence",
+    "subcategory": "armures-lourdes",
+    "published_at": "2026-01-05T15:30:00Z"
+  },
+  {
+    "id": "passe-partout-imperial",
+    "title": "Passe-partout Impérial",
+    "price": 15000,
+    "category": "cyber-cryptage",
+    "subcategory": "cartes-acces-forgees",
+    "published_at": "2026-01-11T19:00:00Z"
+  },
+  {
+    "id": "bras-de-droide-ig-series",
+    "title": "Bras de Droïde IG-Series",
+    "price": 3500,
+    "category": "ferraille-droides",
+    "subcategory": "pieces-detachees",
+    "published_at": "2026-01-07T13:20:00Z"
+  },
+  {
+    "id": "stimulants-de-combat-pack-de-5",
+    "title": "Stimulants de Combat (Pack de 5)",
+    "price": 2500,
+    "category": "ravitaillement-medics",
+    "subcategory": "stimulants-combat",
+    "published_at": "2026-01-13T13:50:00Z"
+  },
+  {
+    "id": "fragment-de-temple-jedi",
+    "title": "Fragment de Temple Jedi",
+    "price": 12000,
+    "category": "reliques-tresors",
+    "subcategory": "artefacts-jedi-sith",
+    "published_at": "2025-12-20T10:00:00Z"
+  },
+  {
+    "id": "balise-sos-longue-portee",
+    "title": "Balise SOS Longue Portée",
+    "price": 1200,
+    "category": "survie-exploration",
+    "subcategory": "balises-detresse",
+    "published_at": "2026-01-01T00:01:00Z"
+  },
+  {
+    "id": "propulseur-ionique-pour-cargo",
+    "title": "Propulseur Ionique pour Cargo",
+    "price": 28000,
+    "category": "vaisseaux-engins",
+    "subcategory": "moteurs-hyperdrive",
+    "published_at": "2026-01-03T18:40:00Z"
+  },
+  {
+    "id": "grenades-ioniques-lot-de-3",
+    "title": "Grenades Ioniques (Lot de 3)",
+    "price": 1800,
+    "category": "armurerie",
+    "subcategory": "explosifs",
+    "published_at": "2026-01-10T14:25:00Z"
+  },
+  {
+    "id": "casque-tactique-avec-hud",
+    "title": "Casque Tactique avec HUD",
+    "price": 4500,
+    "category": "apparence",
+    "subcategory": "casques-respirateurs",
+    "published_at": "2026-01-06T11:10:00Z"
+  },
+  {
+    "id": "oeufs-d-araignee-de-glace",
+    "title": "Œufs d'Araignée de Glace",
+    "price": 95000,
+    "category": "reliques-tresors",
+    "subcategory": "oeufs-creatures",
+    "published_at": "2026-01-13T11:00:00Z"
+  }
+]
